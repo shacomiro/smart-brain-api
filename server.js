@@ -1,8 +1,8 @@
 const express = require('express');
 const bcrypt = require('bcrypt-nodejs');
 const cors = require('cors');
-// 데이터베이스와 서버를 연결하기 위해 knex.js를 사용
-// https://knexjs.org/ 참조
+/* 데이터베이스와 서버를 연결하기 위해 knex.js를 사용
+https://knexjs.org/ 참조 */
 const knex = require('knex');
 
 const register = require('./controllers/register');
